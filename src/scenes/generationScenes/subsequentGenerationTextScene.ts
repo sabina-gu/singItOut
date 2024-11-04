@@ -1,5 +1,5 @@
 import {Scenes} from "telegraf";
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import {generateTextSongWithFeedback} from "../../clients/generateTextSongWithFeedback";
 import {handleChangeAction} from "../../utils/handleChangeAction";
 import console from "console";

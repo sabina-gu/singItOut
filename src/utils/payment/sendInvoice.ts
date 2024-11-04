@@ -1,4 +1,4 @@
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import {randomUUID} from "crypto";
 import console from "console";
 import createInvoiceInDatabase from "../../DB/createInvoiceInDatabase";

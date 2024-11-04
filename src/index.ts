@@ -2,36 +2,36 @@ import { Telegraf, Scenes, session } from 'telegraf';
 import * as dotenv from 'dotenv';
 import * as process from "process";
 import console from "console";
-import mainScene from './src/scenes/mainScene';
-import congratulationWizardScene from './src/scenes/purposeScenes/congratulationWizardScene';
+import mainScene from './scenes/mainScene';
+import congratulationWizardScene from './scenes/purposeScenes/congratulationWizardScene';
 
 
-import styleOfTrackScene from "./src/scenes/styleOfTrackScene";
-import additionalInfoAboutTextWizardScene from "./src/scenes/additionalInfoAboutTextWizardScene";
-import firstGenerationTextScene from "./src/scenes/generationScenes/firstGenerationTextScene";
-import voiceScene  from "./src/scenes/voiceScene";
-import apologyWizardScene from "./src/scenes/purposeScenes/apologyWizardScene";
-import feelingsScene from "./src/scenes/purposeScenes/feelingsScene";
-import motivationWizardScene from "./src/scenes/purposeScenes/motivationWizardScene";
+import styleOfTrackScene from "./scenes/styleOfTrackScene";
+import additionalInfoAboutTextWizardScene from "./scenes/additionalInfoAboutTextWizardScene";
+import firstGenerationTextScene from "./scenes/generationScenes/firstGenerationTextScene";
+import voiceScene  from "./scenes/voiceScene";
+import apologyWizardScene from "./scenes/purposeScenes/apologyWizardScene";
+import feelingsScene from "./scenes/purposeScenes/feelingsScene";
+import motivationWizardScene from "./scenes/purposeScenes/motivationWizardScene";
 
-import customRecipientWizardScene from "./src/scenes/recipientInfoScenes/customRecipientWizardScene";
+import customRecipientWizardScene from "./scenes/recipientInfoScenes/customRecipientWizardScene";
 
-import genreScene from "./src/scenes/genreScene";
-import paymentScene from "./src/scenes/paymentScene";
+import genreScene from "./scenes/genreScene";
+import paymentScene from "./scenes/paymentScene";
 
-import paidGenerationFullSongScene from "./src/scenes/generationScenes/paidGenerationFullSongScene";
-import generationSongScene from "./src/scenes/generationScenes/generationSongScene";
-import subsequentGenerationTextScene from "./src/scenes/generationScenes/subsequentGenerationTextScene";
-import textPaymentScene from "./src/scenes/generationScenes/textPaymentScene";
-import recipientStatusScene from "./src/scenes/recipientInfoScenes/recipientStatusScene";
-import includedPhrasesWizardScene from "./src/scenes/includedPhrasesWizardScene";
-import recipientNameWizardScene from "./src/scenes/recipientInfoScenes/recipientNameWizardScene";
-import anotherPurposeForTrackWizardScene from "./src/scenes/purposeScenes/anotherPurposeForTrackWizardScene";
-import customFeelingWizardScene from "./src/scenes/purposeScenes/customFeelingWizardScene";
-import generatedTextWithFeedback from "./src/scenes/generationScenes/generatedTextWithFeedback";
+import paidGenerationFullSongScene from "./scenes/generationScenes/paidGenerationFullSongScene";
+import generationSongScene from "./scenes/generationScenes/generationSongScene";
+import subsequentGenerationTextScene from "./scenes/generationScenes/subsequentGenerationTextScene";
+import textPaymentScene from "./scenes/generationScenes/textPaymentScene";
+import recipientStatusScene from "./scenes/recipientInfoScenes/recipientStatusScene";
+import includedPhrasesWizardScene from "./scenes/includedPhrasesWizardScene";
+import recipientNameWizardScene from "./scenes/recipientInfoScenes/recipientNameWizardScene";
+import anotherPurposeForTrackWizardScene from "./scenes/purposeScenes/anotherPurposeForTrackWizardScene";
+import customFeelingWizardScene from "./scenes/purposeScenes/customFeelingWizardScene";
+import generatedTextWithFeedback from "./scenes/generationScenes/generatedTextWithFeedback";
 import {Stage} from "telegraf/typings/scenes";
-import {onSuccessfullPayment} from "./src/utils/payment/onSuccessfullPayment";
-import {onPreCheckout} from "./src/utils/payment/onPreCheckout";
+import {onSuccessfullPayment} from "./utils/payment/onSuccessfullPayment";
+import {onPreCheckout} from "./utils/payment/onPreCheckout";
 
 dotenv.config();
 

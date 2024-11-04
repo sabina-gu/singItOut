@@ -1,4 +1,4 @@
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import getInvoiceFromDatabase from "../../DB/getInvoiceFromDatabase";
 import createPaymentInDatabase from "../../DB/createPaymentInDatabase";
 import console from "console";

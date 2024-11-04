@@ -1,5 +1,5 @@
 import asyncWrapper from "./error-handler";
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 import {deletePreviousMessage} from "./deletePreviousMessage";
 
 export const handleTextWithReplyForChoosingButton = (sceneName: string) => {

@@ -1,5 +1,5 @@
 import { Markup, Scenes } from "telegraf";
-import { MyContext } from "../../index";
+import { MyContext } from "../index";
 import { Voice } from "../constants";
 import {deletePreviousMessage} from "../utils/deletePreviousMessage";
 import asyncWrapper from "../utils/error-handler";

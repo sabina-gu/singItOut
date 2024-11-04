@@ -1,4 +1,4 @@
-import { MyContext } from "../../../index";
+import { MyContext } from "../../index";
 import { Markup, Scenes } from "telegraf";
 import {deletePreviousMessage} from "../../utils/deletePreviousMessage";
 import {handleStartCommand} from "../../utils/handleStartCommand";

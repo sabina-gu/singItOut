@@ -1,5 +1,5 @@
 // Общая функция для обработки команды /start и повторного входа в сцену
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 import console from "console";
 import {BaseScene} from "telegraf/typings/scenes";
 import mainScene from "../scenes/mainScene";

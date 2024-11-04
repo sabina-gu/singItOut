@@ -1,5 +1,5 @@
 // Создаем функцию для обработки нажатия кнопки "Изменить"
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 import {Markup} from "telegraf";
 import {Answer} from "../constants";
 

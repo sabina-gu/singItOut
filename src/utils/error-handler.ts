@@ -1,4 +1,4 @@
-import { MyContext} from "../../index";
+import { MyContext} from "../index";
 import console from "console";
 import {BaseScene} from "telegraf/typings/scenes";
 

@@ -1,5 +1,5 @@
 import {Markup, Scenes} from "telegraf";
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import {deletePreviousMessage} from "../../utils/deletePreviousMessage";
 import {handleStartCommand} from "../../utils/handleStartCommand";
 import motivationScene from "../purposeScenes/motivationWizardScene";

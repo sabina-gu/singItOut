@@ -1,5 +1,5 @@
 // Вспомогательная функция для удаления предыдущего сообщения
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 
 export async function deletePreviousMessage(ctx: MyContext):Promise<void> {
     if (ctx.session.messageToDelete) {

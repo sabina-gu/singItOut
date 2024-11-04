@@ -1,4 +1,4 @@
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 import util from 'util';
 import winston, { format } from 'winston';
 import * as process from "process";

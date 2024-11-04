@@ -1,5 +1,5 @@
 // Сцена для ввода включённых фраз
-import {MyContext} from "../../index";
+import {MyContext} from "../index";
 import {Scenes} from "telegraf";
 import asyncWrapper from "../utils/error-handler";
 import {handleStartCommand} from "../utils/handleStartCommand";

@@ -1,5 +1,5 @@
 import {Markup, Scenes} from "telegraf";
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import {getTags} from "../../utils/getTags";
 import customGenerateAudio, {GenerateTrackPayload} from "../../clients/sunoClient";
 import console from "console";

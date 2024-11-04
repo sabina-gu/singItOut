@@ -1,5 +1,5 @@
 import {BaseScene} from "telegraf/typings/scenes";
-import {MyContext} from "../../../index";
+import {MyContext} from "../../index";
 import {Scenes} from "telegraf";
 import asyncWrapper from "../../utils/error-handler";
 import {handleChangeAction} from "../../utils/handleChangeAction";
